@@ -1,0 +1,82 @@
+.chien{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: #444;
+    padding:50px;
+    margin:20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 6px;
+    transition: all 0.3s linear;
+}
+.box:hover{
+    transform: rotate(7deg);
+
+}
+.louis{
+    color: red;
+}
+.vaccin{
+    display: flex;
+}
+.stats{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    body{
+        margin-left:3px;
+    }
+    .stats{
+        width: 400px;
+        display: block;
+        
+        
+    }
+    .row p{
+        font-size: 18px;
+    }
+    .center{
+        text-align: center;
+        width: 300px;
+        height: 200px;
+        margin-left: 25px;
+    }
+    .chien{
+        flex-direction: column;
+    }
+    .chien p{
+        font-size: 15px;
+    }
+    .vaccin{
+        flex-direction: column;
+    }
+    .box{
+        padding:50px;
+       margin:20px;
+       width: 250px;
+       height: 250px;
+       display: block;
+    }
+    .louis{
+        width:150px ;
+        height: 150px;
+    }
+   
+    
+    
+}
+.text li::before{
+    content: '⭐';
+    margin-right: 5px;
+}
+.text{
+    font-size: 25px;
+}

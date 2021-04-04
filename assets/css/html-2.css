@@ -1,0 +1,16 @@
+.text li::before{
+    content: '⭐';
+    margin-right: 5px;
+}
+.text{
+    font-size: 25px;
+}
+.margin{
+    margin-top: 50px;
+}
+@media screen and (max-width: 600px) {
+    body{
+        margin-left:3px;
+    }
+    
+}

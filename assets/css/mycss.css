@@ -1,0 +1,15 @@
+body{
+    scroll-behavior: smooth;
+}
+.strng{
+    color: red;
+    padding-top: 50px;
+}
+.intro{
+    color: red;
+}
+@media screen and (max-width: 600px) {
+    .projet{
+        font-size: 15px;
+    }
+}
